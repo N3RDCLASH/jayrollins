@@ -1,0 +1,97 @@
+@media only screen and (max-width:768px){
+    .nav-buttons{
+        overflow:hidden!important;
+    }
+    .links{
+        margin-top: 0 !important;
+    }
+    body{
+        height: auto !important;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1200px){
+    .btnSocial,.item-1{
+        float: right;
+    }
+}
+@media only screen and (min-width:1368px){
+    .cont-marg{
+        margin-top: 8% !important;
+    }
+    iframe{
+        float:right;
+    }
+}
+html{
+    height: 100%;
+}
+body{
+    background: url(https://i.imgur.com/Ka9255Y.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin:0;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100%;
+    font-family:Lato;
+}
+p{
+    margin: 0;
+    font-size: 10px;
+}
+em{
+    font-family: Indie Flower, cursive;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li {
+	display: block;
+	padding:0;
+    margin: 0;
+}
+i{
+    float: left;
+    margin-top: 7px;
+}
+.top{
+    position: relative;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.content{
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75);
+}
+/*links*/
+.cont-marg{
+    margin-top: 1%
+}
+.space-2{
+    display: none;
+}
+/*end of links*/
+.spotify iframe{
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.mail{
+    color: white !important;
+    text-decoration: none;
+}
+.btnSocial {
+    width: 12rem;
+}
+.links{
+    margin-top: 60px;
+}
+.dev{
+    text-decoration: underline;
+    color: white;
+}
+footer{
+    position: relative;
+    bottom: 0 auto;
+}
